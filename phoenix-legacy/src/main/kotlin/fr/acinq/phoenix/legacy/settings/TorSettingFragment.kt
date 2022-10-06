@@ -125,7 +125,7 @@ network=${app.requireService.getTorInfo("network-liveness")}
 ---
 or connections
 ---
-${app.requireService.getTorInfo("orconn-status")}
+${app.requireService.getTorInfo("torconn-status")}
 
 ---
 circuits
